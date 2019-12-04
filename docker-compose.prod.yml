@@ -18,7 +18,7 @@ services:
       - DB_USER=groupifyuser
       - DB_PASS=groupifypass
       - FLASK_ENV=production
-      - CALLBACK_URL=https://groupify.winstondurand.com/callback
+      - CALLBACK_URL=http://3.135.65.236:3000/callback
     restart: always
     volumes:
       - ./:/app:cached
